@@ -1,0 +1,57 @@
+@media (max-width: 850px) {
+    .container {
+        display: block;
+        margin: 1rem;
+    }
+
+    .card {
+        margin-right: 0;
+        margin: .5rem;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .credentials {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        align-items: center;
+        padding: 0;
+        padding: 1rem;
+    }
+
+    .report-title {
+        display: block;
+        width: 150px;
+        margin-left: 1rem;
+    }
+
+    .profile-img {
+        margin: 1rem;
+        width: 100%;
+    }
+
+    .profile-name {
+        font-size: 1rem;
+    }
+
+    .categories {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+
+    .stat-category {
+        display: inline;
+        font-size: 1rem;
+    }
+
+    .stats-container {
+        display: block;
+    }
+
+    .card {
+        margin-right: 0;
+    }
+}
